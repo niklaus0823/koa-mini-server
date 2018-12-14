@@ -1,0 +1,39 @@
+{
+  "name": "koa-mini-server",
+  "version": "0.0.1",
+  "author": "fengjie",
+  "private": true,
+  "description": "Koa mini server.",
+  "keywords": [
+    "TypeScript",
+    "Koa",
+    "Server"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js"
+  },
+  "homepage": "https://github.com/niklaus0823/koa-mini-server#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklaus0823/koa-mini-server.git"
+  },
+  "bugs": "https://github.com/niklaus0823/koa-mini-server/issues",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "@types/underscore": "^1.8.9",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mz": "^2.7.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.47",
+    "@types/koa-router": "^7.0.35",
+    "@types/mz": "0.0.32"
+  }
+}
